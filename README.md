@@ -19,7 +19,7 @@ The code, as shown in `main.ipynb`, consists of a few steps:
                                                   <img width="800" align ="middle" alt="Screenshot 2020-08-13 at 3 31 25 PM" src="https://user-images.githubusercontent.com/34549910/90106672-592b9b00-dd7a-11ea-95d3-518b13943656.png">
 
 
-2. **OCR** : The next step is to take the cropped rows and apply OCR to extract text and bounding box for location. We use `pytessaract` to perform OCR. It's important to to capture the location to account for multiple words in the same column and misssing values. <br/><br/>
+2. **OCR** : The next step is to take the cropped rows and apply OCR to extract text and bounding box for location. We use `pytesseract` to perform OCR. It's important to to capture the location to account for multiple words in the same column and misssing values. <br/><br/>
 
 
       <img width="800" alt="Screenshot 2020-08-13 at 4 00 30 PM" src="https://user-images.githubusercontent.com/34549910/90109297-30a5a000-dd7e-11ea-839c-a57fc86303cb.png">
