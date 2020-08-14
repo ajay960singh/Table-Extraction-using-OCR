@@ -2,7 +2,12 @@
 
 ### Description
 
-This is a Python implementation for converting tables in PDF documents to Excel format using Optical Character Recognition (OCR) and OpenCV.
+This is a Python implementation for converting tables in PDF documents to Excel format using Optical Character Recognition (OCR) and OpenCV. The input PDF document can be found in `input/test_input.pdf`. The screenshot of the PDF document used is shown below
+<p align='middle'>
+<img width = '500' src = "https://user-images.githubusercontent.com/34549910/90256560-7f376500-de78-11ea-8c98-0599d8f8b905.png">
+</p>
+
+The table is extracted and converted to excel in `output/pdf2excel.xlsx`.
 
 ### Requirements
 
